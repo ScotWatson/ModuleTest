@@ -10,5 +10,5 @@ export class Test {
 }
 
 export function funcTest() {
-  
+  return Module2.Test;
 }

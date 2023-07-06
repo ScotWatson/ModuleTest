@@ -4,6 +4,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 import * as Module2 from "https://scotwatson.github.io/ModuleTest/module2.mjs";
+import * as Module3 from "https://scotwatson.github.io/ModuleTest/module3.mjs";
 
 console.log("module1 evaluation");
 

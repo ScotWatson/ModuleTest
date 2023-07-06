@@ -24,7 +24,7 @@ const asyncErrorLog = (async function () {
 
 const asyncModule1 = (async function () {
   try {
-    const module = await import("https://scotwatson.github.io/ModuleTest/Module1.mjs");
+    const module = await import("https://scotwatson.github.io/ModuleTest/module1.mjs");
     return module;
   } catch (e) {
     console.error(e);
@@ -33,7 +33,7 @@ const asyncModule1 = (async function () {
 
 const asyncModule2 = (async function () {
   try {
-    const module = await import("https://scotwatson.github.io/ModuleTest/Module2.mjs");
+    const module = await import("https://scotwatson.github.io/ModuleTest/module2.mjs");
     return module;
   } catch (e) {
     console.error(e);

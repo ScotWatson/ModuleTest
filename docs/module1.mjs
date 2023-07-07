@@ -15,3 +15,5 @@ export class Test {
 export function funcTest() {
   return Module2.Test;
 }
+
+export const obj = Module2.obj;

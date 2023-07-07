@@ -17,3 +17,5 @@ export function funcTest() {
 }
 
 export const obj = Module2.obj;
+
+export const Module2Test = Module2.Test;

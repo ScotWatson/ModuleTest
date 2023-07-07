@@ -7,7 +7,7 @@ console.log("module2 evaluation");
 
 export const obj = {};
 
-export const Test = class {
+export class Test {
   
 }
 

@@ -54,6 +54,7 @@ async function start( [ evtWindow, ErrorLog, Module1, Module2 ] ) {
     const Test = Module1.Test;
     const ForwardedTest = Module1.funcTest();
     console.log(Test === ForwardedTest);
+    console.log(Module1.Module2Test === Module2.Test);
     console.log(Module1.obj === Module2.obj);
     console.log(Module1.obj);
     console.log(Module2.obj);
